@@ -44,7 +44,7 @@ function isApiError(error) {
 }
 // 接口无法使用 instanceof
 function isApiError1(error) {
-    if (typeof error.code === 'number') {
+    if (typeof error.code === "number") {
         return true;
     }
     return false;

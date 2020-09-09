@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="c1e5f5bd-b294-433f-a31c-504a1a28db5e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/implements.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/var-concat.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assret-type.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assret-type.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/origin-type.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/origin-type.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/origin-type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/origin-type.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuple.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuple.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tuple.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/tuple.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/type-alias.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/type-alias.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assret-type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/assret-type.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/class.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/class.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,25 +22,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="class.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/class.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
         <option value="tsconfig.json" />
-        <option value="TypeScript File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -49,6 +38,7 @@
     <findStrings>
       <find>Person5</find>
       <find>Error</find>
+      <find>ext</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -72,13 +62,18 @@
         <option value="$PROJECT_DIR$/src/str-type.ts" />
         <option value="$PROJECT_DIR$/src/enum.ts" />
         <option value="$PROJECT_DIR$/src/a.ts" />
-        <option value="$PROJECT_DIR$/src/assret-type.ts" />
         <option value="$PROJECT_DIR$/src/str-template.ts" />
         <option value="$PROJECT_DIR$/src/origin-type.ts" />
         <option value="$PROJECT_DIR$/src/type-alias.ts" />
         <option value="$PROJECT_DIR$/src/tuple.ts" />
         <option value="$PROJECT_DIR$/src/class.css" />
         <option value="$PROJECT_DIR$/src/class.ts" />
+        <option value="$PROJECT_DIR$/src/class-2.ts" />
+        <option value="$PROJECT_DIR$/src/class-1.ts" />
+        <option value="$PROJECT_DIR$/src/implements.ts" />
+        <option value="$PROJECT_DIR$/src/assret-type.ts" />
+        <option value="$PROJECT_DIR$/src/var-concat.ts" />
+        <option value="$PROJECT_DIR$/src/generics.ts" />
       </list>
     </option>
   </component>
@@ -104,7 +99,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -113,8 +108,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="NBKnowledgePane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,6 +124,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="NBKnowledgePane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,10 +155,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.class.js">
+  <component name="RunManager" selected="Node.js.implements.js">
     <configuration name="class.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="class.js" working-dir="$PROJECT_DIR$/src" />
-    <configuration name="origin-type.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="origin-type.js" working-dir="$PROJECT_DIR$/src" />
-    <configuration name="str-type.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="str-type.js" working-dir="$PROJECT_DIR$/src" />
+    <configuration name="implements.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="implements.js" working-dir="$PROJECT_DIR$/src" />
     <configuration name="tuple.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="tuple.js" working-dir="$PROJECT_DIR$/src" />
     <configuration name="基础类型.ts" type="TypeScriptProgramRunner" factoryName="TypeScript">
       <module name="TypeScript" />
@@ -173,6 +167,17 @@
       <option name="tsconfigFile" value="" />
       <option name="extraTypeScriptOptions" value="" />
       <option name="scriptName" value="$PROJECT_DIR$/src/基础类型.ts" />
+      <option name="programParameters" value="" />
+      <option name="tsnodePackage" value="" />
+    </configuration>
+    <configuration name="implements.ts" type="TypeScriptProgramRunner" factoryName="TypeScript" temporary="true">
+      <module name="TypeScript" />
+      <option name="interpreterRef" value="project" />
+      <option name="interpreterOptions" value="" />
+      <option name="workingDirectory" value="$PROJECT_DIR$/src" />
+      <option name="tsconfigFile" value="" />
+      <option name="extraTypeScriptOptions" value="" />
+      <option name="scriptName" value="$PROJECT_DIR$/src/implements.ts" />
       <option name="programParameters" value="" />
       <option name="tsnodePackage" value="" />
     </configuration>
@@ -189,19 +194,19 @@
     </configuration>
     <list>
       <item itemvalue="TypeScript.基础类型.ts" />
-      <item itemvalue="Node.js.origin-type.js" />
-      <item itemvalue="Node.js.str-type.js" />
       <item itemvalue="TypeScript.tuple.ts" />
       <item itemvalue="Node.js.tuple.js" />
       <item itemvalue="Node.js.class.js" />
+      <item itemvalue="TypeScript.implements.ts" />
+      <item itemvalue="Node.js.implements.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.implements.js" />
+        <item itemvalue="TypeScript.implements.ts" />
         <item itemvalue="Node.js.class.js" />
         <item itemvalue="Node.js.tuple.js" />
         <item itemvalue="TypeScript.tuple.ts" />
-        <item itemvalue="Node.js.str-type.js" />
-        <item itemvalue="Node.js.origin-type.js" />
       </list>
     </recent_temporary>
   </component>
@@ -221,19 +226,20 @@
       <workItem from="1589275126174" duration="3844000" />
       <workItem from="1589336600850" duration="11156000" />
       <workItem from="1599570836372" duration="4461000" />
+      <workItem from="1599656141891" duration="2041000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26697000" />
+    <option name="totallyTimeSpent" value="28738000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Weex Documents" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32969698" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2581818" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28242424" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3987879" />
       <window_info anchor="bottom" id="RNConsole" order="7" />
@@ -255,26 +261,26 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Jenkins" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Weex Documents" order="4" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="TypeScript" order="8" />
       <window_info anchor="bottom" id="RNConsole" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="CSS-X-Fire" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3987879" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -290,7 +296,9 @@
         <option value="$PROJECT_DIR$/src/type-alias.js" />
         <option value="$PROJECT_DIR$/src/tuple.js" />
         <option value="$PROJECT_DIR$/src/enum.js" />
-        <option value="$PROJECT_DIR$/src/class.js" />
+        <option value="$PROJECT_DIR$/src/implements.js" />
+        <option value="$PROJECT_DIR$/src/var-concat.js" />
+        <option value="$PROJECT_DIR$/src/generics.js" />
       </list>
     </option>
   </component>
@@ -303,6 +311,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/class-2.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/enum.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -355,9 +370,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/a.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/a.js" />
     <entry file="file://$PROJECT_DIR$/src/array-type.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -365,9 +378,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/a.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/a.ts" />
     <entry file="file://$PROJECT_DIR$/src/enum.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -404,9 +415,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/str-template.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/str-template.ts" />
     <entry file="file://$PROJECT_DIR$/src/str-type.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -449,13 +458,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assret-type.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/class.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -463,10 +465,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/class.ts">
+    <entry file="file://$PROJECT_DIR$/src/class-2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/class-2.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/class.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/implements.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assret-type.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/var-concat.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/implements.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/generics.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
         </state>
       </provider>
     </entry>

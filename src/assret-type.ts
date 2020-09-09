@@ -48,7 +48,7 @@ interface HttpError1 extends Error {
 }
 // 接口无法使用 instanceof
 function isApiError1(error: Error) {
-    if (typeof (error as ApiError1).code === 'number') {
+    if (typeof (error as ApiError1).code === "number") {
         return true;
     }
     return false;
